@@ -1,27 +1,24 @@
 ---
-title: "America???s Gun Violence Problem - 1st version"
+title: "America's Gun Violence Problem - 1st version"
 author: "Yezhu Li"
 date: "5/4/2018"
 output: html_document
 ---
 
-## R Markdown
-
-Here???s what you should know about gun violence problems:
+The Unites States has prolems with gun violence, we talked about it after mass shootings and tragic news, but we might never fully understand how critical and complicated it is now. Here is the least you should know about gun violence problems:
 
 
-### 1. Mass shootings happened in the US since 2014 
+### 1412 Mass shootings happened in the U.S. since 2014
 
-There have been more than **1,400** mass shootings from 2014 to present. **1,629** people were killed and **6,063** were injured. 
+There have been more than **1,400** mass shootings happened from 2014 to present. **1,629** people were killed and **6,063** were injured. 
 
-On the night of Sunday, October 1, 2017 when a gunman opened fire on a crowd of concertgoers at the Route 91 Harvest music festival on the Las Vegas Strip in Nevada, leaving 58 people dead and 851 injured. 
+On the night of Sunday, October 1, 2017 when a gunman opened fire on a crowd of concertgoers at the Route 91 Harvest music festival on the Las Vegas Strip in Nevada, leaving 59 people dead and 851 injured. 
 
 The incident is the deadliest mass shooting committed by an individual in the United States. It reignited the debate about gun laws in the U.S., with attention focused on bump fire stocks, which Paddock used to fire semi-automatic rifles at a rate similar to that of a fully automatic weapon.
 
-![/Users/Mushroom/Desktop/D1.png]
+![https://github.com/gleamingMushroom/AddImage/blob/master/D1.png]
 
 Unsurprisingly, mass shootings happended more often at areas with larger population.But Wyoming, North Dakota and Idaho managed to remain peace for years, is it related with state gun policy strength, or the density of gun ownership? we'll find out.
-
 
 
 ### 2. People getting hurt everyday
@@ -30,16 +27,16 @@ On average, there is around one kill and three injury for each day in the US by 
 
 **121** days, mass shooting has cost the US **103** killed and **314** injured.
 
-![/Users/Mushroom/Desktop/D2.png]
+![https://github.com/gleamingMushroom/AddImage/blob/master/D2.png]
 
 As we can see from the numbers and trend, it is not getting better year after year!
 
-![/Users/Mushroom/Desktop/D3.png]
+![https://github.com/gleamingMushroom/AddImage/blob/master/D3.png]
 
 
 ### 3. Weak Gun Laws, More Gun Deaths
 
-![/Users/Mushroom/Desktop/D4.png]
+![https://github.com/gleamingMushroom/AddImage/blob/master/D4.png]
 
 source:http://lawcenter.giffords.org/scorecard/#CA
 
