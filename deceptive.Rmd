@@ -1,0 +1,72 @@
+---
+title: "First Version - Deception"
+author: "Yezhu Li"
+date: "5/18/2018"
+output: html_document
+---
+
+
+Tableau Public Link 
+Jupyter Notebook Link
+
+```{r}
+This file contains the following project delieverables:
+
+Project statement
+Finding 1
+Finding 2
+Finding 3
+Data Wrangling
+Road Map
+```
+
+## Project Statment
+
+This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+```{r cars}
+summary(cars)
+```
+
+## Finding 1
+
+The original graph stated that gun homicides have declined over the past couple decades, but if we start looking this graph
+
+
+```{r}
+![](https://cdn.vox-cdn.com/thumbor/fsGRktGSnwO7XymX8qtP1unsFak=/0x0:417x395/1720x0/filters:focal(0x0:417x395):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/9371435/firearm_homicide_deaths.png)
+
+
+```
+
+## Finding 2
+
+Most gun deaths are suicides?
+
+```{r}
+
+
+```
+
+## Finding 3
+
+States with more guns have more gun deaths?
+
+```{r}
+![](https://cdn.vox-cdn.com/thumbor/qT_eY-nv6mUjUlZkghfFutjUcnc=/0x0:784x671/1720x0/filters:focal(0x0:784x671):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/10259683/mother_jones_gun_deaths_by_state.png)
+```
+
+## Data Wrangling
+
+You can also embed plots, for example:
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+
+## Road-map
+
+Ylalala
