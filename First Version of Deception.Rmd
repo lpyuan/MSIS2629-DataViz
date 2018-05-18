@@ -30,9 +30,12 @@ This file contains the following project delieverables:
 **Deceptive Visualization:** *“a graphical depiction of information, designed with or without an intent to deceive, that may create a belief about the message and/or its components, which varies from the actual message.”*
 
 
-## Finding 1
+## Finding 1 - Have gun homicides really declined in the US over the past few years?
 
-The original graph stated that gun homicides have declined over the past couple decades, especially since 1993, it appeared a great and sudden drop, but if we start looking this graph
+The original graph stated that gun homicides have declined over the past couple decades, we can see from the original graph that it did appeare a great and sudden drop, especially since 1993, the death rate of homicides decreased and tended to be stable.
+
+But if our data start from 1999, the meaning could be completely different. The deceptive graph took the same dataset, but different time period, and also the axis start point was manipulated, so the trend seems fluctuated remarkably. It can be seen that the death rate of homicides is tumultuous, goes up and down, with a decline around 2007 - 2011, and goes up from 2014 - 2016, eventually exceed the start year number.
+
 
 Orginal Graph | Deceptive Graph
 ------------- | -------------
