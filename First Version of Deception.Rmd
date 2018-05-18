@@ -46,6 +46,10 @@ Deceptive Graph:
 
 Most gun deaths are suicides?
 
+Orginal Graph | Deceptive Graph
+------------- | -------------
+![](https://github.com/gleamingMushroom/AddImage/blob/master/Sheet%202%20Original.png)  | ![](https://github.com/gleamingMushroom/AddImage/blob/master/Sheet%202.png)
+
 Orginal Graph:
 ![](https://github.com/gleamingMushroom/AddImage/blob/master/Sheet%202%20Original.png)
 
