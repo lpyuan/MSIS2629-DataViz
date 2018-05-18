@@ -34,13 +34,9 @@ This file contains the following project delieverables:
 
 The original graph stated that gun homicides have declined over the past couple decades, especially since 1993, it appeared a great and sudden drop, but if we start looking this graph
 
-
-Orginal Graph:
-![](https://cdn.vox-cdn.com/thumbor/fsGRktGSnwO7XymX8qtP1unsFak=/0x0:417x395/1720x0/filters:focal(0x0:417x395):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/9371435/firearm_homicide_deaths.png)
-
-Deceptive Graph:
-![](https://github.com/gleamingMushroom/AddImage/blob/master/Sheet%201.png)
-
+Orginal Graph | Deceptive Graph
+------------- | -------------
+![](https://cdn.vox-cdn.com/thumbor/fsGRktGSnwO7XymX8qtP1unsFak=/0x0:417x395/1720x0/filters:focal(0x0:417x395):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/9371435/firearm_homicide_deaths.png)  | ![](https://github.com/gleamingMushroom/AddImage/blob/master/Sheet%201.png)
 
 ## Finding 2
 
@@ -49,13 +45,6 @@ Most gun deaths are suicides?
 Orginal Graph | Deceptive Graph
 ------------- | -------------
 ![](https://github.com/gleamingMushroom/AddImage/blob/master/Sheet%202%20Original.png)  | ![](https://github.com/gleamingMushroom/AddImage/blob/master/Sheet%202.png)
-
-Orginal Graph:
-![](https://github.com/gleamingMushroom/AddImage/blob/master/Sheet%202%20Original.png)
-
-Deceptive Graph:
-![](https://github.com/gleamingMushroom/AddImage/blob/master/Sheet%202.png)
-
 
 ## Finding 3
 
