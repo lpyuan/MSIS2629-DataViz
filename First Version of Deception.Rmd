@@ -63,12 +63,14 @@ Orginal Graph | Deceptive Graph
 ------------- | -------------
 ![](https://cdn.vox-cdn.com/thumbor/qT_eY-nv6mUjUlZkghfFutjUcnc=/0x0:784x671/1720x0/filters:focal(0x0:784x671):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/10259683/mother_jones_gun_deaths_by_state.png) | ![](https://github.com/gleamingMushroom/AddImage/blob/master/Sheet%203.png)
 
-Data Source: [Gun ownership and social gun culture](http://europepmc.org/articles/pmc4809774)
 [Tableau Public Link](https://us-west-2b.online.tableau.com/#/site/yezhuli/views/GunViolence/Dashboard3?:iid=6)
+Data Source: [Gun ownership and social gun culture](http://europepmc.org/articles/pmc4809774)
 
 ## Finding 4 - Is it true that the states with the most guns report the most suicides?
 
-Using the data of reported suicides between 2001 and 2005 in states with the highest and lowest rates of gun ownership, we can see the significant contrast from the original graph. But if we only use the data of high rate gun ownership states and differentiate them with gender, the result does not support the conclusion of *"More guns, more suicides".* In the deceptive graph, for male, it is true that firearm suicide is higher than non-firearm suiciede, but for female, firearm suicide and non-firearm suiciede is almost the same, actually, the non-firearm suiciede bar is higher. So we can only say that: *"For Male, More guns lead to more suicides".*
+Using the data of reported suicides between 2001 and 2005 in states with the highest and lowest rates of gun ownership, we can see the significant contrast from the original graph. But if we only use the data of high rate gun ownership states and differentiate them with gender, the result does not support the conclusion of *"More guns, more suicides".* 
+
+In the deceptive graph, for male, it is true that firearm suicide is higher than non-firearm suiciede, but for female, firearm suicide and non-firearm suiciede is almost the same, actually, the non-firearm suiciede bar is higher. So we can only say that: *"For Male, More guns lead to more suicides".*
 
 Orginal Graph | Deceptive Graph
 ------------- | -------------
