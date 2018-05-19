@@ -18,8 +18,8 @@ This project contains the following project delieverables:
 5. Finding 4
 6. Data Wrangling
 7. Road Map
-
 ```
+
 ### Tableau Public Link 
 
 
@@ -52,13 +52,17 @@ Orginal Graph | Deceptive Graph
 ------------- | -------------
 ![](https://github.com/gleamingMushroom/AddImage/blob/master/Sheet%202%20Original.png)  | ![](https://github.com/gleamingMushroom/AddImage/blob/master/Sheet%202.png)
 
-## Finding 3
+## Finding 3 - States with more guns have more gun deaths?
 
-States with more guns have more gun deaths?
+The original graph believes *“within the United States, a wide array of empirical evidence indicates that more guns in a community leads to more homicide."*
+
+Using the same data from a study in Injury Prevention and the Centers for Disease Control and Prevention, if we reverse the axis orientation, it could be visually deceptive. To compare with the original one, the deceptive graph shows an opposite trend line. As it change the way people's normal understanding of axis' representation, it could be visually misleading to "More gun ownership, lower death rate". 
 
 Orginal Graph | Deceptive Graph
 ------------- | -------------
 ![](https://cdn.vox-cdn.com/thumbor/qT_eY-nv6mUjUlZkghfFutjUcnc=/0x0:784x671/1720x0/filters:focal(0x0:784x671):format(webp)/cdn.vox-cdn.com/uploads/chorus_asset/file/10259683/mother_jones_gun_deaths_by_state.png) | ![](https://github.com/gleamingMushroom/AddImage/blob/master/Sheet%203.png)
+
+Data Source: [Gun ownership and social gun culture](http://europepmc.org/articles/pmc4809774)
 
 ## Finding 4
 
@@ -67,8 +71,7 @@ Orginal Graph | Deceptive Graph
 ------------- | -------------
 ![](https://github.com/gleamingMushroom/AddImage/blob/master/Sheet%204%20Original2.png) | ![](https://github.com/gleamingMushroom/AddImage/blob/master/Sheet%204.png)
 
-Data Source:
-![](https://github.com/gleamingMushroom/AddImage/blob/master/Sheet%204%20Original.jpeg)
+Data Source: [Guns and Suicide in the United States](https://www.nejm.org/doi/full/10.1056/NEJMp0805923)
 
 
 ## Data Wrangling
@@ -77,11 +80,7 @@ Data Source:
 
 Data of finding 1 & 2 are downloaded from CDC Multiple Cause of Death Data: https://wonder.cdc.gov/mcd.html.
 The data represented firearm caused death in each state each year, from 1999 to 2016. 
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
 
 ## Road-map
 
-Ylalala
+In the future improvement, instead of focus on the US, I will generate more data of different countries. As only with more comparisons with the rest of the worlds will 
