@@ -8,7 +8,7 @@
 + output: html_document
 ---
 
-This project contains the following project delieverables:
+This project contains following delieverables:
 
 ```{r}
 1. Project statement
