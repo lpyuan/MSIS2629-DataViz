@@ -64,8 +64,9 @@ Orginal Graph | Deceptive Graph
 
 Data Source: [Gun ownership and social gun culture](http://europepmc.org/articles/pmc4809774)
 
-## Finding 4
+## Finding 4 - Is it true that the states with the most guns report the most suicides?
 
+Using the data of reported suicides between 2001 and 2005 in states with the highest and lowest rates of gun ownership, we can see the significant contrast from the original graph. But if we only use the data of high rate gun ownership states and differentiate them with gender, the result does not support the conclusion of *"More guns, more suicides".* In the deceptive graph, for male, it is true that firearm suicide is higher than non-firearm suiciede, but for female, firearm suicide and non-firearm suiciede is almost the same, actually, the non-firearm suiciede bar is higher. So we can only say that: *"For Male, More guns lead to more suicides".*
 
 Orginal Graph | Deceptive Graph
 ------------- | -------------
@@ -83,4 +84,4 @@ The data represented firearm caused death in each state each year, from 1999 to 
 
 ## Road-map
 
-In the future improvement, instead of only focus on the US, I will generate more data of different countries. As only with more comparisons with the rest of the worlds will make the unique problems in the US more standout.
+In the future improvement, instead of only focus on the US, it would be better to generate more data from different countries. As only with more comparisons of different countries will make the unique problems in the US more standout.
