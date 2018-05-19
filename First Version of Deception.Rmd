@@ -83,4 +83,4 @@ The data represented firearm caused death in each state each year, from 1999 to 
 
 ## Road-map
 
-In the future improvement, instead of focus on the US, I will generate more data of different countries. As only with more comparisons with the rest of the worlds will 
+In the future improvement, instead of focus on the US, I will generate more data of different countries. As only with more comparisons with the rest of the worlds will make something prominent
