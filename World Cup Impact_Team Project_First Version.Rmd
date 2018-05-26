@@ -1,11 +1,7 @@
----
-title: "Team Project First Version"
-author: "Yezhu Li"
-date: "5/25/2018"
-output: html_document
----
 
-Structure:
+# Is World Cup Worth it for Host Country?
+
+## Structure:
 
 ```{r}
 1. Introduction
@@ -64,29 +60,28 @@ On the other hand, the data suggests that host countries might recover nicely in
 
 ![](https://github.com/gleamingMushroom/AddImage/blob/master/GDP%20Change%20among%20large%20Economies.png)
 
-Tableau public link:https://us-west-2b.online.tableau.com/#/site/yezhuli/views/Book1/GDPChangeamonglargeEconomies?:iid=1
+[Tableau public link](https://us-west-2b.online.tableau.com/#/site/yezhuli/views/Book1/GDPChangeamonglargeEconomies?:iid=1)
 
 When we compared the GDP change in current $US, we can see the big differences among these host countries. Countries like the U.S., Germany and Japan are known as large economies, did show a rising trend after host year.
 
-Germany (2006), France (1998) and the United States (1994), with developed infrastructure and modern stadiums, spent less than a billion each. When they co-hosted in 2002 and built new facilities, South Korea spent $2.5 billion and Japan $5 billion.(http://time.com/2930699/world-cup-brazil-spending/)
-But it???s not obvious to draw conclusion for other countries. 
+Germany (2006), France (1998) and the United States (1994), with developed infrastructure and modern stadiums, spent less than a billion each. When they co-hosted in 2002 and built new facilities, South Korea spent [$2.5 billion](http://time.com/2930699/world-cup-brazil-spending/)and Japan [$5 billion](http://time.com/2930699/world-cup-brazil-spending/).But it's not obvious to draw conclusion for other countries. 
 
 ** Figure 2.2: GDP Changes among Host Countries (Medium Economies, 1960-2016) ** 
 
 ![](https://github.com/gleamingMushroom/AddImage/blob/master/GDP%20Change%20among%20medium%20Economies.png)
 
-Tableau public link:
-https://us-west-2b.online.tableau.com/#/site/yezhuli/views/Book1/GDPChangeamongmediumEconomies?:iid=2 
+[Tableau public link]
+(https://us-west-2b.online.tableau.com/#/site/yezhuli/views/Book1/GDPChangeamongmediumEconomies?:iid=2)
 
-By filtering out large economies, we can see from the following graph, after host year, Brazil has a significant drop. Possible reasons could be: inflation, cost of infrustration???(http://money.cnn.com/2014/05/22/news/economy/world-cup-brazil/index.html)
-This World Cup is the most expensive one yet, with estimates of Brazil???s total expenditures hovering around $14 billion???including more than $3.6 billion spent on 12 new and renovated stadiums. That???s right around three times the estimated price tags for the 2010 World Cup in South Africa, which cost a total of $3.9 billion with $1.3 billion in stadium construction work.
-(cited from http://www.foxnews.com/world/2014/06/27/is-hosting-world-cup-worth-it-no-so-why-do-it-good-question.html)
+By filtering out large economies, we can see from the following graph, after host year, Brazil has a significant drop. Possible reasons could be: inflation, cost of [infrustration](http://money.cnn.com/2014/05/22/news/economy/world-cup-brazil/index.html)
+
+This World Cup is the most expensive one yet, with estimates of Brazil's total expenditures hovering around $14 billion including more than $3.6 billion spent on 12 new and renovated stadiums. That's right around three times the estimated price tags for the 2010 World Cup in South Africa, which cost a total of [$3.9 billion](http://www.foxnews.com/world/2014/06/27/is-hosting-world-cup-worth-it-no-so-why-do-it-good-question.html)with $1.3 billion in stadium construction work.
 
 ** Figure 2.3: GDP Changes among Host Countries (Small Economies, 1960-2016) **
 
 ![](https://github.com/gleamingMushroom/AddImage/blob/master/GDP%20Change%20among%20small%20Economies.png)
 
-Tableau public link:https://us-west-2b.online.tableau.com/#/site/yezhuli/views/Book1/GDPChangeamongsmallEconomies?:iid=3 
+[Tableau public link](https://us-west-2b.online.tableau.com/#/site/yezhuli/views/Book1/GDPChangeamongsmallEconomies?:iid=3)
 
 There is an obvious economic boosting for South Africa, as the only country in Africa ever host the world cup, this event was seen as an African achievement. 
 
@@ -94,12 +89,12 @@ Also, it was a remarkable transition for the nation that had been banned from th
 
 South Africa directly spent over 4 billion dollars to host the cup (Cohen 2010), and billions more in corresponding infrastructure improvements in host cities (Desal and Vahed 2010, 156). In all, the government spent over R13 billion on infrastructure and transportation improvements. This spending directly created 130,000 construction jobs (Marcus, 2010), and the World Cup as a whole indirectly resulted in a gain of 415,000 jobs (Sylvester and Harju 2010, 8). 
 
-Ultimately, the World Cup added 0.5%???or R93 billion???to South Africa???s GDP in 2010 (Ibid). ([1] Fully judging the economic consequences of the World Cup is difficult, because the whole story of gains may not be finished yet. In their 2011 research paper, Ant??n, Alonso, and Rodr??guez found that economic growth in host nations is highest during the two years after having hosted the World Cup, and suggest that the overall picture for South Africa will be an even more positive one. So a broad timescale may be necessary for a comprehensive evaluation.)
+Ultimately, the World Cup added 0.5% or R93 billion to South Africa's GDP in 2010 (Ibid). ([1] Fully judging the economic consequences of the World Cup is difficult, because the whole story of gains may not be finished yet. In their 2011 research paper, Ant??n, Alonso, and Rodr??guez found that economic growth in host nations is highest during the two years after having hosted the World Cup, and suggest that the overall picture for South Africa will be an even more positive one. So a broad timescale may be necessary for a comprehensive evaluation.)
 
 #### Limitations and Outlook:
 
 + As stated above, drawing general conclusion from GDP data is very difficult. Different nations have had a variety of experiences, so the discussion above should be interpreted as being suggestive of possible trends, not as conclusive evidence one way or the other about the causal impact of the World Cup on national economies.
-+ As popularity of the sport has increased worldwide, we might expect a changing impact of the World Cup on economies, so the past is not necessarily a good guide for the future. (With over 4 billion followers of football, it is by far the most popular sport in the world. Reference: ???25 World???s Most Popular Sports - Ranked by 13 factors???)
++ As popularity of the sport has increased worldwide, we might expect a changing impact of the World Cup on economies, so the past is not necessarily a good guide for the future. (With over 4 billion followers of football, it is by far the most popular sport in the world. [Reference](https://www.totalsportek.com/most-popular-sports/)
 + The impact of the games might also be sensitive to the timing of the games. A country that is operating below capacity might receive a much bigger boost from the games than an economy that is already growing.
 + GDP data has huge gap between different countries, find more supportive data to explain their changes in different ways.
 
