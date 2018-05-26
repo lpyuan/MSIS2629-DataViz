@@ -1,0 +1,162 @@
+---
+title: "Team Project First Version"
+author: "Yezhu Li"
+date: "5/25/2018"
+output: html_document
+---
+
+Structure:
+
+```{r}
+1. Introduction
+2. Data Wrangling
+3. Interesting Findings
+4. Conclusion
+```
+
+## Introduction
+
+Since the World Cup inauguration in Uruguay in 1930, over 20 countries have been hosts of this worldwide mega event. It is the everlasting hope of countries that host major sporting events that the games will bring about not only sporting glory but also an economic boom. Tourism is also a clear reason that world cup host country will get the benefit of tourists coming and spending money.
+
+However, there are certain figures and metrics that suggest that the benefits might not outweigh the costs of hosting. If we want to assess the impacts a World Cup might have on a country, one way is to look at the historical experience of past hosts. 
+
+So we used data of all host countries from three perspectives sports performance by comparison of World Cup Ranking to Elo Rating, economic impact by GDP growth rate and changes in current US dollars, international tourism impact by number of arrivals and expenditure. After our analysis, we found the following three unexpected findings.
+
+
+## Data Wrangling
+
+![Finding One Jupyter Link](https://github.com/bochenw/first-version-graph/blob/master/Finding%203%20Data%20Wrangling.ipynb)
+
+[Finding Two Jupyter Link]
+
+[Finding Three Jupyter Link]
+
+## Interesting Findings
+
+### Finding 1: Will World Cup Increase the GDP of Host Countries? Probably not!
+
+At the beginning of this analysis, we???ll focuses on the argument that whether world cup will lead to increase economic activity in the host countries.
+
+We selected 13 countries of 14 world cup games since 1960, including Chile(1962), United Kingdom(1966), Mexico(1970), Germany(1974), Argentina(1978), Spain(1982), Mexico(1986), Italy(1990), United States(1994), France(1998), Korea(2002), Japan(2002), Germany(2006), South Africa(2010), Brazil(2014).
+
+#### <1> Compare GDP Growth Rate of Host Countries
+
+If the World Cup does provide an economic boost, we might expect to see an increase in the growth of a nation???s gross domestic product (GDP) either in the World Cup year or in the immediate aftermath. 
+
+** Figure 1: Average and Median Growth in Real Gross Domestic Product Host Countries (1960-2016) **
+
+![](https://github.com/gleamingMushroom/AddImage/blob/master/Ave%20and%20Med%20Growth%20in%20GDP.jpg)
+
+Tableau public link:
+https://us-west-2b.online.tableau.com/#/site/yezhuli/views/Book1/AveandMedGrowthinGDP?:iid=4
+
+Figure 1 presents the growth rate of GDP in **the five years prior to the World Cup (Pre: Y-5 to Host Year) and compares that to the growth rate in the World Cup host year, as well as the five-year periods following (Post: Host year to Y5)**.
+
+The graph shows the **average and the median growth rates** of all the host countries in five years prior to and the five years after the World Cup event. And this discussion could be interpreted as being suggestive of possible trends, not as conclusive evidence one way or the other about the causal impact of the World Cup on national economies.
+
+It is interesting to find that on average, economic growth is slower in the host year than in the years both preceding and following. In other words, World Cup hosts have seen a negative impact on economic growth in the year of the event. With the World Cup games lasting about one month in total, the distraction of such a large sporting event might be enough to slow economic growth.
+
+On the other hand, the data suggests that host countries might recover nicely in the two years immediately following the World Cup with average growth rates that are higher than the years immediately preceding it.
+
+#### <2> GDP Annual Changes in Current US$
+
+** Figure 2.1: GDP Changes among Host Countries (1960-2016) **
+
+![](https://github.com/gleamingMushroom/AddImage/blob/master/GDP%20Change%20among%20large%20Economies.png)
+
+Tableau public link:https://us-west-2b.online.tableau.com/#/site/yezhuli/views/Book1/GDPChangeamonglargeEconomies?:iid=1
+
+When we compared the GDP change in current $US, we can see the big differences among these host countries. Countries like the U.S., Germany and Japan are known as large economies, did show a rising trend after host year.
+
+Germany (2006), France (1998) and the United States (1994), with developed infrastructure and modern stadiums, spent less than a billion each. When they co-hosted in 2002 and built new facilities, South Korea spent $2.5 billion and Japan $5 billion.(http://time.com/2930699/world-cup-brazil-spending/)
+But it???s not obvious to draw conclusion for other countries. 
+
+** Figure 2.2: GDP Changes among Host Countries (Medium Economies, 1960-2016) ** 
+
+![](https://github.com/gleamingMushroom/AddImage/blob/master/GDP%20Change%20among%20medium%20Economies.png)
+
+Tableau public link:
+https://us-west-2b.online.tableau.com/#/site/yezhuli/views/Book1/GDPChangeamongmediumEconomies?:iid=2 
+
+By filtering out large economies, we can see from the following graph, after host year, Brazil has a significant drop. Possible reasons could be: inflation, cost of infrustration???(http://money.cnn.com/2014/05/22/news/economy/world-cup-brazil/index.html)
+This World Cup is the most expensive one yet, with estimates of Brazil???s total expenditures hovering around $14 billion???including more than $3.6 billion spent on 12 new and renovated stadiums. That???s right around three times the estimated price tags for the 2010 World Cup in South Africa, which cost a total of $3.9 billion with $1.3 billion in stadium construction work.
+(cited from http://www.foxnews.com/world/2014/06/27/is-hosting-world-cup-worth-it-no-so-why-do-it-good-question.html)
+
+** Figure 2.3: GDP Changes among Host Countries (Small Economies, 1960-2016) **
+
+![](https://github.com/gleamingMushroom/AddImage/blob/master/GDP%20Change%20among%20small%20Economies.png)
+
+Tableau public link:https://us-west-2b.online.tableau.com/#/site/yezhuli/views/Book1/GDPChangeamongsmallEconomies?:iid=3 
+
+There is an obvious economic boosting for South Africa, as the only country in Africa ever host the world cup, this event was seen as an African achievement. 
+
+Also, it was a remarkable transition for the nation that had been banned from the global tournament by FIFA in 1961. South Africa was hoping that the opportunity to host the biggest spectacle in the world would be an opportunity to continue its societal transformation and economic development.(references: Economic and Social Impact of the World Cup on South Africa)
+
+South Africa directly spent over 4 billion dollars to host the cup (Cohen 2010), and billions more in corresponding infrastructure improvements in host cities (Desal and Vahed 2010, 156). In all, the government spent over R13 billion on infrastructure and transportation improvements. This spending directly created 130,000 construction jobs (Marcus, 2010), and the World Cup as a whole indirectly resulted in a gain of 415,000 jobs (Sylvester and Harju 2010, 8). 
+
+Ultimately, the World Cup added 0.5%???or R93 billion???to South Africa???s GDP in 2010 (Ibid). ([1] Fully judging the economic consequences of the World Cup is difficult, because the whole story of gains may not be finished yet. In their 2011 research paper, Ant??n, Alonso, and Rodr??guez found that economic growth in host nations is highest during the two years after having hosted the World Cup, and suggest that the overall picture for South Africa will be an even more positive one. So a broad timescale may be necessary for a comprehensive evaluation.)
+
+#### Limitations and Outlook:
+
++ As stated above, drawing general conclusion from GDP data is very difficult. Different nations have had a variety of experiences, so the discussion above should be interpreted as being suggestive of possible trends, not as conclusive evidence one way or the other about the causal impact of the World Cup on national economies.
++ As popularity of the sport has increased worldwide, we might expect a changing impact of the World Cup on economies, so the past is not necessarily a good guide for the future. (With over 4 billion followers of football, it is by far the most popular sport in the world. Reference: ???25 World???s Most Popular Sports - Ranked by 13 factors???)
++ The impact of the games might also be sensitive to the timing of the games. A country that is operating below capacity might receive a much bigger boost from the games than an economy that is already growing.
++ GDP data has huge gap between different countries, find more supportive data to explain their changes in different ways.
+
+### Finding 2 - Will World Cup has a significant impact of tourism on host countries?
+
+While many factors influence tourism growth, one of the more perceptible contributions e at least, in the public eye, comes from global events, or mega-events.
+
+Mega-events, according to Roche (2000), are ???large-scale cultural (including commercial and sporting) events, which have a dramatic character, mass popular appeal and international significance???. Obviously, FIFA World Cup is a precious opportunity for host countries to attract international tourists and increase their expenditure.
+
+#### <1> International Tourism Number of Arrivals
+
+** Figure 1.1:  International Tourism Number of Arrivals **
+![](https://github.com/lpyuan/AddPics/blob/master/France_plus.png)
+
+Tableau Public Link:
+https://public.tableau.com/profile/lipin.yuan#!/vizhome/InternationalTourismNumofArrivals-1_1995-2016/Sheet1?publish=yes
+
+** Figure 1.2:  International Tourism Number of Arrivals (Without France) **
+![](https://github.com/lpyuan/AddPics/blob/master/Num_Arrivals.png)
+
+Tableau Public Link:
+https://public.tableau.com/profile/lipin.yuan#!/vizhome/InternationalTourismNumofArrivals1995-2016/Sheet1?publish=yes
+
+Firstly,  according to one study(https://www.researchgate.net/publication/46443643_The_impact_of_mega-events_on_tourist_arrivals), it is said that a very direct benefit of such mega-events on tourism is the increase of the number of tourists arrivals to the host country in the year of the event. 
+
+So we plot six host countries data of number of arrivals from 1995 to 2016.  For each country, we label out their host year with country name and the number of arrivals. In this way, we can also measure the long-run impact on tourist arrivals, both before and after the event.
+
+From the chart above, we can see the international tourists to France are obviously the biggest one of all years and after hosting World Cup in 1998, especially in the following two years, the number of arrivals keep increasing. 
+
+After we filter out France in the second graph, we can have a better observation of other countries. It shows that Germany also has the same increasing trending with a relatively faster rate. Although South Africa is increasing, the growth rate is pretty small. But for Japan, Korea, and even Brazil, these countries did not show an substantially arising trend around the host year and instead the number of arrivals are all decreased the year after hosting World Cup. 
+
+Maybe because 'regular' tourists change their behaviour when a mega-event is held, either shifting their trip to a different time or different location. This may result in reduced tourism gain, or even loss.
+
+As we cannot analysis many patterns of the number of international tourists, we tried to dig more in the following graph with the expenditure of international tourism.
+
+#### <2> International Tourism Expenditures
+
+** Figure 2:  International Tourism Expenditures ** 
+
+![](https://github.com/gleamingMushroom/AddImage/blob/master/International%20tourism%20expenditures.jpg)
+
+Tableau public link:
+https://us-west-2b.online.tableau.com/#/site/yezhuli/views/Book1/Internationaltourismexpenditures?:iid=5
+
+Form the aspect of tourism expenditure, when countries host global events, the assumption is often that the exposure and the tourism will massively boost. So far that does seem to be the case for Japan. But France, Germany, Korea and South Africa are all showing a very profitable growth.
+Brazil is a little bit different, it has a boost at the host year but followed another rapid drop. vAccording to Wall Street Journal, Brazil tourists seen spending $2.97 Billion during World Cup and $50 Million in Rio de Janeiro during tournament's first weekend. (https://www.wsj.com/articles/brazil-tourists-seen-spending-2-97-billion-during-world-cup-1403010185) The total amount includes spending on hotels, transportation and at restaurants and bars, and Rio will attract more cash from tourists because it will host the most matches during the tournament, including the final. 
+
+But for the post world cup years, what???s going wrong then? Well firstly the expense of travelling to and within Brazil has been off putting to many, with Brazilians opting in droves to travel abroad with their overvalued Real and foreigners shunning Brazil for exactly the same reason. 
+
+There is also the on-going perception that Brazil is a dangerous  country. However, an equally important problem seems to be a general lack of accurate, attractive and easily available information online in English and other  languages to independent travellers. This leaves even those who want to come to Brazil unsure about where to go, what to do and how to get around safely. (http://www.hiddenpousadasbrazil.com/brazil-blog/how-the-world-cup-might-still-support-a-sustainable-tourism-industry-in-brazil/ )
+
+#### Limitations and Outlook:
+
++ Change the format to five years prior to the World Cup and compares that to the host year, as well as the five-year periods following.
++ Locating the year that ???FIFA announced the Host Country???, compare the differences of post announcement years to post hosting years??? impact on tourism. 
+
+### Finding 3
+
+
+
